@@ -43,7 +43,7 @@ namespace ConsoleApp2 {
             contaBancaria E;
             string nome;
             int numero;
-            double saldo;
+            double saldo=0;
 
             Console.Write("Numero: ");
             numero = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
